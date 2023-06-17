@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    font-family: 'Pacifico', cursive;
+    margin-right: -35px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700; 
+}
+
+.main{
+    background: url(mainPage.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700; 
+}
+
+.btn1:hover{
+    background-color: rgb(176, 7, 58);
+
+}
+
+.card:hover{
+    -webkit-box-shadow: 13px -9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px -9px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 13px -9px 5px 0px rgba(0,0,0,0.75);
+}
